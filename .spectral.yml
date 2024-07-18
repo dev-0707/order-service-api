@@ -1,0 +1,13 @@
+extends: ["spectral:oas", "https://github.servizi.allitude.it/architetturesw/axway-spectral/blob/main/src/spectral/common.yaml"]
+
+overrides:
+  - files:
+    - headers/**/*
+    - parameters/**/*
+    - requests/**/*
+    - resources/**/*
+    - responses/**/*
+    - schemas/**/*
+    - securitySchemas/**/*
+    rules:
+      x-classification-object-present: "off"

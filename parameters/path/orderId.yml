@@ -1,0 +1,6 @@
+in: path
+name: orderId
+required: true
+description: ID dell'ordine da ricercare
+schema:
+  type: string

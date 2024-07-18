@@ -1,0 +1,37 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Allitude OpenAPI Template
+  description: Template OpenAPI Spec modulare
+  license:
+    name: MIT
+  contact:
+    name: Allitude Architetture
+    url: http://www.allitude.it
+    email: architetture@local.local
+x-classification:
+  apiType: backend
+  productionLine: corebanking
+  bianServiceDomain: Custody Administration
+  orgUnit: "Test"
+servers:
+  - url: http://localhost:8080/api/v1
+tags:
+  - name: orders
+paths:
+  /orders:
+    $ref: "./resources/orders.yml"
+  /orders/{orderId}:
+    $ref: "./resources/order.yml"
+components:
+  parameters:
+    $ref: "./parameters/_index.yml"
+  schemas:
+    $ref: "./schemas/_index.yml"
+  responses:
+    $ref: "./responses/_index.yml"
+  headers:    
+    $ref: "./headers/_index.yml"
+  securitySchemes:
+      $ref: "./securitySchemas/_index.yml"
+      

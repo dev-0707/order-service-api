@@ -1,0 +1,5 @@
+description: Richiesta creazione ordine
+content:
+  application/json:
+    schema:
+      $ref: '../../schemas/create-order.yml'

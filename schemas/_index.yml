@@ -1,0 +1,8 @@
+Order:
+  $ref: "./order.yml"
+OrderLine:
+  $ref: "./order-line.yml"
+CreateOrder:
+  $ref: "./create-order.yml"
+Problem:
+  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/schemas/error-handling/problem.yml"
