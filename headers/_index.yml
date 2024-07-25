@@ -10,8 +10,3 @@ CacheControl:
   $ref: 'https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/headers/response/schemas/caching/cache-control.yml'
 ETag:
   $ref: 'https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/headers/response/schemas/caching/etag.yml'
-MyCustomHeader:
-description: Esempio di custom header
-schema:
-  type: string
-  example: "custom header sample value"
