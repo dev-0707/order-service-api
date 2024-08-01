@@ -1,0 +1,13 @@
+description: Order not found
+content:
+  application/json:
+    schema:
+      allOf:
+        - $ref: 'https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/schemas/error-handling/Problem.yml'
+        - type: object
+          required:
+            - orderId
+          properties:
+            orderId:
+              type: string
+              example: 10067a6a-821a-1865-9870-ad4bc3e96f2a
