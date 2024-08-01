@@ -22,7 +22,7 @@ paths:
   /orders:
     $ref: "./resources/orders.yml"
   /orders/{orderId}:
-    $ref: "./resources/order.yml"
+    $ref: "./resources/Order.yml"
 components:
   parameters:
     $ref: "./parameters/_index.yml"

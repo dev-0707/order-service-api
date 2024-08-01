@@ -1,4 +1,4 @@
-Cache-Control:
-  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/headers/response/schemas/caching/cache-control.yml"
+CacheControl:
+  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/headers/response/schemas/caching/CacheControl.yml"
 ETag:
-  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/headers/response/schemas/caching/etag.yml"
+  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/headers/response/schemas/caching/ETag.yml"

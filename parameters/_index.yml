@@ -8,4 +8,4 @@ offset:
   $ref: 'https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/parameters/query/pagination/offset/offset.yml'
 
 sortOrder:
-  $ref: 'https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/parameters/query/sorting/sort-order.yml'
+  $ref: 'https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/parameters/query/sorting/sortOrder.yml'

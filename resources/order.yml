@@ -14,7 +14,7 @@ get:
       content:
         application/json:
           schema:
-            $ref: "../schemas/order.yml"
+            $ref: "../schemas/Order.yml"
   security: 
       - oauth2: 
         - read_orders
@@ -30,7 +30,7 @@ delete:
     '204':
       description: "Ordine cancellato"
     default:
-        $ref : "../responses/order-not-found.yml"      
+        $ref : "../responses/OrderNotFound.yml"      
   security: 
       - oauth2: 
         - delete_orders
@@ -46,7 +46,7 @@ put:
     '204':
       description: "Ordine modificato"
     default:
-        $ref : "../responses/order-not-found.yml"      
+        $ref : "../responses/OrderNotFound.yml"      
   security: 
       - oauth2: 
         - modify_orders        

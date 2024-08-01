@@ -1,2 +1,2 @@
 OrderNotFound:
-  $ref: "./order-not-found.yml"
+  $ref: "./OrderNotFound.yml"
