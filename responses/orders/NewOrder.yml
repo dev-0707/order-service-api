@@ -1,0 +1,6 @@
+type: object
+description: "Nuovo ordine creato"
+properties:     
+    orderId:
+      type: string
+      example: 10067a6a-821a-1865-9870-ad4bc3e96f2a
