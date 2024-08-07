@@ -8,4 +8,4 @@ properties:
     type: object
     properties:
       pagination:
-        $ref: 'https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/responses/metadata/pagination/CursorPagination.yml'
+        $ref: 'https://nexus.servizi.allitude.it/repository/openapi/common/0.0.3/responses/metadata/pagination/CursorPagination.yml'

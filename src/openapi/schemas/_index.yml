@@ -5,4 +5,4 @@ OrderLine:
 CreateOrder:
   $ref: "./CreateOrder.yml"
 Problem:
-  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.1/schemas/error-handling/Problem.yml"
+  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.3/schemas/error-handling/Problem.yml"
