@@ -1,9 +1,0 @@
-type: object
-description: "Riga di un ordine"
-properties:     
-    productId:
-      type: string
-      example: 10067a6a-821a-1865-9870-ad4bc3e96f2a
-    quantity:
-      type: integer
-      example: 10  

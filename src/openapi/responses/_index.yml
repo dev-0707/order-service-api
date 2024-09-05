@@ -1,2 +1,4 @@
-OrderNotFound:
-  $ref: "./OrderNotFound.yml"
+UnexpectedError:
+  $ref: "./UnexpectedError.yml"
+NullResponse:
+  $ref: "./NullResponse.yml"

@@ -1,7 +1,0 @@
-apiKey:
-  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.3/securitySchemas/api-key.yml"
-bearer:
-  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.3/securitySchemas/bearer.yml"
-oauth2:
-  $ref: "https://nexus.servizi.allitude.it/repository/openapi/common/0.0.3/securitySchemas/ouath2.yml"
-
